@@ -1,6 +1,6 @@
 /*
 Template: Medicate – Health & Medical HTML Template
-Author: peacefulqode.com
+Author: centromedicomujer.com.ar
 Version: 1.2
 Design and Developed by: PeacefulQode
 
@@ -2303,6 +2303,10 @@ Design and Developed by: PeacefulQode
 
 @media(max-width:479px) {
     
+    .displaynone{
+        display: none;
+    }
+
     header#pq-header .pq-search-form {
         top: 65px;
         width: 250px;

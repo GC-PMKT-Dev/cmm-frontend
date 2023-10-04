@@ -1,6 +1,6 @@
 /*
 Template: Medicate – Health & Medical HTML Template
-Author: peacefulqode.com
+Author: centromedicomujer.com.ar
 Version: 1.2
 Design and Developed by: PeacefulQode
 
@@ -66,9 +66,9 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 [ Moz Selection ]
 ==================================================*/
 :root {
-  --primary-color: #bc912c;
-  --primary-dark-color: #9e7f35;
-  --dark-color: #18100f;
+  --primary-color: #343148e6;
+  --primary-dark-color: #9c9c9c;
+  --dark-color: #BC912C;
   --secondary-color: #666666;
   --grey-color: #f4f6f9;
   --white-color: #ffffff;
@@ -1709,7 +1709,7 @@ header#pq-header.pq-header-sticky {
 
 /*============ Header Top Bar============*/
 header#pq-header .pq-top-header {
-  background: var(--primary-dark-color);
+  background: var(--dark-color);
   padding: 0;
   font-size: 14px;
 }
@@ -2296,10 +2296,10 @@ header#pq-header.pq-header-style-4 .pq-header-top-wrapper {
 }
 
 header#pq-header.pq-header-style-4 .pq-header-top-wrapper .pq-site-logo a.navbar-brand img { 
-  height: 50px; 
+  height: 100px; 
 }
 header#pq-header.pq-header-style-4 .site-header-menu { 
-  background: var(--primary-color); 
+  background: var(--primary-dark-color); 
 }
 
 header#pq-header.pq-header-style-4 .site-header-menu a.navbar-brand img { 
@@ -2408,7 +2408,7 @@ header#pq-header.pq-header-style-4 .pq-toggle-btn {
 }
 
 header#pq-header.pq-header-style-4 .pq-bottom-header .pq-button { 
-  background: var(--dark-color); 
+  background: var(--primary-color); 
   padding: 12px 30px; 
   border-radius: 3px; 
 }

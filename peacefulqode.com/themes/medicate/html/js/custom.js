@@ -1,6 +1,6 @@
 /*
 Template: Medicate – Health & Medical HTML Template
-Author: peacefulqode.com
+Author: centromedicomujer.com.ar
 Version: 1.2
 Design and Developed by: PeacefulQode
 
