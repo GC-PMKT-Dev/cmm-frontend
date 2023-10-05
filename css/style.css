@@ -355,7 +355,34 @@ select.form-control {
   background-size: 20px 20px;
   border-radius: 3px;
 }
+/* ---- Whatsapp ----------- */
+.whatsapp-icon {
+  position: fixed; 
+  bottom: 20px;    
+  right: 20px;    
+  z-index: 1000;   
 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50px;
+  height: 50px;
+
+  background-color: #25D366; 
+  border-radius: 50%; 
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+
+  color: white; 
+  font-size: 24px; 
+  text-decoration: none; 
+  transition: transform 0.2s; 
+}
+
+.whatsapp-icon:hover {
+  transform: scale(1.1); 
+}
+/* ---- Whatsapp ----------- */
 /*==================================================
    Loading
 ==================================================*/
@@ -390,8 +417,8 @@ select.form-control {
   bottom: 30px;
   right: 30px;
   margin: 0px;
-  color: var(--white-color);
-  background: var(--primary-color);
+  /*color: var(--white-color);*/
+  /*background: var(--primary-color);*/
   z-index: 999;
   font-size: 16px;
   width: 50px;
@@ -665,7 +692,7 @@ Button Core
 
 
 .pq-button-text{
-  color: var(--white-color);
+  /*color: var(--white-color);*/
 }
 
 .pq-button.pq-button-link .pq-button-text{
@@ -2805,7 +2832,7 @@ Footer Subscribe
 }
 
 .pq-subscribe-block .pq-subscribe-img {
-  width: 55px;
+  width: 130px;
   color: var(--primary-color);
 }
 
@@ -2881,7 +2908,7 @@ footer#pq-footer .pq-footer-style-1 {
 }
 
 footer#pq-footer .pq-footer-top {
-  padding: 70px 0 0;
+  padding: 40px 0 0;
   position: relative;
   z-index: 9;
 }
@@ -2910,10 +2937,11 @@ footer#pq-footer .pq-copyright-footer .pq-copyright a:hover {
 
 
 footer#pq-footer .pq-footer-logo {
-  height: 50px;
+  height: 150px;
   margin-bottom: 30px;
   width: auto;
   border-radius: 0;
+  filter: brightness(0) saturate(100%) invert(1);
 }
 
 footer#pq-footer .pq-footer-style-1 .pq-footer-social ul {
