@@ -2001,6 +2001,7 @@ header#pq-header .pq-search-form {
   background: var(--white-color);
 }
 
+
 header#pq-header .pq-button:hover .pq-button-line-left {
   width: calc(15px - 1px);
 }
