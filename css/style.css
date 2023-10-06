@@ -8010,3 +8010,12 @@ Custom Css
 .place .py-130{
   padding: 130px 0;
 }
+
+/*
+@media (max-width:360px){
+    .contenedor-seccion-primera-descripcion-pmc{
+        max-width: 95%;
+    }
+}
+
+*/

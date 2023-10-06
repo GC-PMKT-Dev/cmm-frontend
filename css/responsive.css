@@ -2299,6 +2299,10 @@ Design and Developed by: PeacefulQode
     .medical-skills .pq-padding-arround{
         padding: 60px 15px;
     }
+ 
+    .whatsapp-icon{
+        
+    }
 }
 
 @media(max-width:479px) {
