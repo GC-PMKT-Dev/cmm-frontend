@@ -338,7 +338,11 @@
                                                     </li>
                                                     -->
                                                     <li class="menu-item">
-                                                        <a href="contact-us.html">Contáctanos</a>
+                                                        <!--
+                                                        <a href="contact-us.html">Contáctanos1</a>
+                                                    -->
+                                                    <a href="mailto:yonathanezecalderon@gmail.com">Contáctanos</a>
+
                                                     </li>
                                                 </ul>
                                             </div>
@@ -1736,6 +1740,8 @@
                       document.getElementById("especialidad").value = "";
                       ("Especialidad");
                       console.log(data.message);
+                       // Redirección
+                      window.location.href = "gracias.html";
                     } else {
                       alert("A ocurrido un error en la solicitud de turno");
                       throw new Error(data.message);

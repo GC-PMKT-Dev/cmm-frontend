@@ -1750,6 +1750,9 @@ Design and Developed by: PeacefulQode
 
 @media (max-width:767px) {
 
+    .appointment-img img{
+        display: none;
+    }
     section {
         padding: 60px 0 !important;
     }
@@ -1840,6 +1843,7 @@ Design and Developed by: PeacefulQode
     }
 
     .pq-subscribe-bg {
+        margin-top: 6rem;
         padding: 30px;
     }
 
