@@ -2305,8 +2305,8 @@ Design and Developed by: PeacefulQode
     }
  
     .whatsapp-icon{
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
         font-size: 30px;
     }
 }
@@ -2613,7 +2613,7 @@ Design and Developed by: PeacefulQode
 @media(max-width: 397px){
 
     header#pq-header .pq-bottom-header .navbar .navbar-brand img{
-        height: 40px;
+        height: 60px;
     }
     
     .pq-popup-video-block .pq-video-icon a {
